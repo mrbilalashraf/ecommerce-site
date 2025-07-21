@@ -1,0 +1,69 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body.no-search form[role="search"] {
+  display: none !important;
+}
+
+main {
+  flex: 1;
+}
+
+#backToTopBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  z-index: 999;
+  display: none;
+  font-size: 18px;
+  padding: 10px 14px;
+  background-color: #6c757d; /* Bootstrap secondary */
+  color: white;
+  border: none;
+  transition: opacity 0.3s ease;
+}
+
+#backToTopBtn:hover {
+  background-color: #5a6268;
+  cursor: pointer;
+}
+
+#userInfo .dropdown-menu {
+  transform: translateX(-50%);
+  min-width: 150px;
+  z-index: 1000;
+}
+
+/* Show dropdown on hover */
+#userInfo:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+/* Remove arrow beside profile icon */
+/* #profileDropdown::after {
+  display: none !important;
+} */
+
+.dropdown-menu .dropdown-item,
+.dropdown-menu .dropdown-item-text,
+.dropdown-menu button.dropdown-item {
+  cursor: pointer;
+}
+
+.product-card {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.add-to-cart-btn {
+  cursor: pointer;
+}
