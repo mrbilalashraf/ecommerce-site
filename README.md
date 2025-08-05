@@ -36,7 +36,7 @@ MockMart is a responsive e-commerce website built using **HTML**, **CSS**, and *
 
 ## 📁 Folder Structure
 
-📦 mockmart
+📦 ecommerce-site
 ┣ 📂 css/
 ┃ ┗ 📜 style.css
 ┣ 📂 js/
@@ -60,14 +60,13 @@ MockMart is a responsive e-commerce website built using **HTML**, **CSS**, and *
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/mockmart.git
-   cd mockmart
+   git clone https://github.com/mrbilalashraf/ecommerce-site.git
+   cd ecommerce-site
 
 1. **Open index.html in Browser**
     No server or build tool needed. This is a static frontend project.
 
-💻 Live Demo
-🌐 View Live Site
+🌐 [View Live Site](https://mockmart.netlify.app/)
 
 🔐 Authentication Note
 The login system is client-side only (no backend), and data is stored in localStorage.
